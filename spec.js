@@ -105,7 +105,7 @@ var spec =
             properties: {       
                 secret_token: {
                     type: "string",
-                    example: "HF2tQU2e1deKdIzuetdR"
+                    example: "KMfnSD4Qgtze5OODxxx"
                 },
                 event_code: {
                     type: "string",
@@ -128,18 +128,19 @@ var spec =
                         },
                         phone: {                 
                             type: "number",  
-                            example: "0902639xxx"
+                            example: "0902639266"
                         },
                         custom_fields: {
                             type: "object",
                             example: {
-                                "prefix": "Mr",
-                                "date_of_birth": "07/10/2001",
-                                "work": "Delfi Technologies",
-                                "profession": "IT",
-                                "country": "Viet Nam",
-                                "transaction_id": 14029115
-                            }    
+                                "address": "HCM, Viet Nam",
+                                "order_time": "07/10/2001 13:52:09",
+                                "payment_time": "07/10/2001 14:00:25",
+                                "transaction_id": 14029115,
+                                "ticket_conference": "Session A\n",
+                                "ticket_early": "Member (Hội viên thuộc các LCH) – 1.500.000\n",
+                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000\n"
+                            }
                         },
                     } 
                 },
@@ -212,12 +213,19 @@ var spec =
                         custom_fields: {
                             type: "object",
                             example: {
-                                "prefix": "Mr",
-                                "date_of_birth": "07/10/2001",
-                                "work": "Delfi Technologies",
-                                "profession": "IT",
-                                "country": "Viet Nam",
-                                "transaction_id": 14029115  
+                                "address": "HCM, Viet Nam",
+                                "order_time": "07/10/2001 13:52:09",
+                                "payment_time": "07/10/2001 14:00:25",
+                                "transaction_id": 14029115,
+                                "ticket_conference": {
+                                    "opt1": "ticket_conference_opt1"
+                                },
+                                "ticket_standard": {
+                                    "opt1": "ticket_standard_opt1"
+                                },
+                                "ticket_early": {
+                                    "opt1": "ticket_early_opt1"
+                                }
                             }
                         }
                     }    
