@@ -137,9 +137,15 @@ var spec =
                                 "order_time": "07/10/2001 13:52:09",
                                 "payment_time": "07/10/2001 14:00:25",
                                 "transaction_id": 14029115,
-                                "ticket_conference": "Session A\n",
-                                "ticket_early": "Member (Hội viên thuộc các LCH) – 1.500.000\n",
-                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000\n"
+                                "ticket_conference": {
+                                    "opt1": "ticket_conference_opt1"
+                                },
+                                "ticket_standard": {
+                                    "opt1": "ticket_standard_opt1"
+                                },
+                                "ticket_early": {
+                                    "opt1": "ticket_early_opt1"
+                                }
                             }
                         },
                     } 
@@ -217,15 +223,9 @@ var spec =
                                 "order_time": "07/10/2001 13:52:09",
                                 "payment_time": "07/10/2001 14:00:25",
                                 "transaction_id": 14029115,
-                                "ticket_conference": {
-                                    "opt1": "ticket_conference_opt1"
-                                },
-                                "ticket_standard": {
-                                    "opt1": "ticket_standard_opt1"
-                                },
-                                "ticket_early": {
-                                    "opt1": "ticket_early_opt1"
-                                }
+                                "ticket_conference": "Session A\n",
+                                "ticket_early": "Member (Hội viên thuộc các LCH) – 1.500.000\n",
+                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000\n"
                             }
                         }
                     }    
