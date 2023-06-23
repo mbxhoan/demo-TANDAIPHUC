@@ -283,6 +283,10 @@ var spec =
                             type: "string",
                             example: "NORMAL"   
                         },
+                        email_status: {
+                            type: "string",
+                            example: "SENT"   
+                        },
                         status: {
                             type: "string",
                             example: "NEW"   
