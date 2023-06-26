@@ -322,7 +322,7 @@ var spec =
                                 "payment_total": "4,500,000đ",
                                 "ticket_conference": "Session A: 1,500,000đ\n",
                                 "ticket_early": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,500,000đ\n",
-                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,800,000đ\n",
+                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,500,000đ\n",
                                 "ticket_gala": null
                             }
                         }
@@ -422,7 +422,7 @@ var spec =
                                 "payment_total": "4,500,000 đ",
                                 "ticket_conference": "Session A: 1,500,000 đ\n",
                                 "ticket_early": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,500,000 đ\n",
-                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,800,000 đ\n",
+                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,500,000 đ\n",
                                 "ticket_gala": "Gala Dinner: 1,000,000 đ\n"
                             }
                         }
