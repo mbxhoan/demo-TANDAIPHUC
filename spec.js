@@ -222,16 +222,20 @@ var spec =
                             example: {
                                 "address": "HCM, Viet Nam",
                                 "order_time": "07/10/2001 13:52:09",
-                                "payment_time": "07/10/2001 14:00:25",
                                 "transaction_id": 14029115,
+                                "payment_time": "07/10/2001 14:00:25",
+                                "payment_total": "4,500,000 đ",
                                 "ticket_conference": {
-                                    "opt1": "ticket_conference_opt1"
+                                    "ticket_conference_opt1": "1,500,000 đ"
                                 },
                                 "ticket_standard": {
-                                    "opt1": "ticket_standard_opt1"
+                                    "ticket_standard_opt1": "1,500,000 đ"
                                 },
                                 "ticket_early": {
-                                    "opt1": "ticket_early_opt1"
+                                    "ticket_early_opt1": "1,500,000 đ"
+                                },
+                                "ticket_gala": {
+                                    "ticket_gala_opt1": "1,000,000 đ"
                                 }
                             }
                         },
@@ -310,13 +314,16 @@ var spec =
                         custom_fields: {
                             type: "object",
                             example: {
+                                "order_id": 123,
                                 "address": "HCM, Viet Nam",
                                 "order_time": "07/10/2001 13:52:09",
-                                "payment_time": "07/10/2001 14:00:25",
                                 "transaction_id": 14029115,
-                                "ticket_conference": "Session A\n",
-                                "ticket_early": "Member (Hội viên thuộc các LCH) – 1.500.000\n",
-                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000\n"
+                                "payment_time": "07/10/2001 14:00:25",
+                                "payment_total": "4,500,000đ",
+                                "ticket_conference": "Session A: 1,500,000đ\n",
+                                "ticket_early": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,500,000đ\n",
+                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,800,000đ\n",
+                                "ticket_gala": null
                             }
                         }
                     }    
@@ -407,13 +414,16 @@ var spec =
                         custom_fields: {
                             type: "object",
                             example: {
+                                "order_id": 43993,
                                 "address": "HCM, Viet Nam",
                                 "order_time": "07/10/2001 13:52:09",
-                                "payment_time": "07/10/2001 14:00:25",
                                 "transaction_id": 14029115,
-                                "ticket_conference": "Session A\n",
-                                "ticket_early": "Member (Hội viên thuộc các LCH) – 1.500.000\n",
-                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000\n"
+                                "payment_time": "07/10/2001 14:00:25",
+                                "payment_total": "4,500,000 đ",
+                                "ticket_conference": "Session A: 1,500,000 đ\n",
+                                "ticket_early": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,500,000 đ\n",
+                                "ticket_standard": "Member (Hội viên thuộc các LCH) – 1.500.000: 1,800,000 đ\n",
+                                "ticket_gala": "Gala Dinner: 1,000,000 đ\n"
                             }
                         }
                     }    
